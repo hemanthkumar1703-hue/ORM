@@ -47,7 +47,7 @@ class Employee(models.Model):
 
     def __str__(self):
         return self.name
-        ~~~
+ ~~~
  Admins.py
         ~~~
         from django.contrib import admin
