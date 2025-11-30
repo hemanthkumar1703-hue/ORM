@@ -49,7 +49,7 @@ class Employee(models.Model):
         return self.name
  ~~~
  Admins.py
-        ~~~
+ ~~~
         from django.contrib import admin
 from .models import Employee
 
